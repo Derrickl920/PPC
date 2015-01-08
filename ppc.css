@@ -1,0 +1,38 @@
+/* HEADER */
+
+#header{
+	width: 970px;
+	height: 140px;
+	background-color: #DADFE5;
+	font-family: "Arial", Arial, sans-serif;
+
+
+	}
+
+	#header img, h3{
+	display: inline-block;
+	vertical-align: top;
+	}	
+
+		#header img{
+		padding-left: 25px;
+		}
+
+		#header h3{
+		margin-top: 25px;
+		padding-left:280px;
+		}
+
+		#header li{
+		list-style-type: none;
+		display: inline;
+		padding-right: 25px;
+		font-size: 14px;
+		background-color: #DADFE5;
+		}
+
+
+/* ABOUT */
+
+/* CAT */
+

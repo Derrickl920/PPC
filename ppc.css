@@ -1,12 +1,13 @@
+*{
+	font-family: "Arial", Arial, sans-serif;
+}
+
 /* HEADER */
 
 #header{
 	width: 970px;
 	height: 140px;
-	background-color: #DADFE5;
-	font-family: "Arial", Arial, sans-serif;
-
-
+	background-color: #eaeaea;
 	}
 
 	#header img, h3{
@@ -20,19 +21,106 @@
 
 		#header h3{
 		margin-top: 25px;
-		padding-left:280px;
+		padding-left:250px;
+		}
+
+		#nav{
+			border-top: 1px solid black;
+
 		}
 
 		#header li{
 		list-style-type: none;
 		display: inline;
-		padding-right: 25px;
+		padding: 0px 10px 5px 5px;
 		font-size: 14px;
+		font-weight: bold;
+		color: dimgray;
 		background-color: #DADFE5;
+		border-right: 1px solid gray;
+
 		}
+
+			#header a{
+				text-decoration: none;
+				color: dimgray;
+				background-color: #dadfe5
+			}
 
 
 /* ABOUT */
+body{
+	background-color: black;
+}
+
+#about {
+	width: 970px;
+}
+
+#about img, #text{
+	display: inline-block;
+	vertical-align: top;
+}
+
+#text{
+	background-color: gray;
+	width: 518px;
+	font-size: 13px;
+	height: 265px;
+	margin-top: 20px;
+
+}
+
+	#p1, #p2{
+		color: white;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
+	#head4{
+		background-color: #fbcf5a;
+		margin-top: 0px;
+		padding-top: 5px;
+		padding-bottom:5px;
+		padding-left: 5px;
+	}
+
+	#head4-2{
+		color: white;
+		padding-left: 20px;
+	}
+
+
+
+	#about img{
+		margin-left: 35px;
+		margin-top: 20px;
+		border-style: solid;
+		border-color: white;
+		border-width: thick;
+	}
+
+	#logo2{
+		border: 0;
+	}
+
+	#logo2, #pc{
+		display: inline-block;
+		margin-left: 20px;
+	}
+
+
+
+
+
+
+
+	#pc{
+		color: #8b8950;
+		font-size: 11px;
+		margin-top: 28px;
+		margin-bottom: 0px;
+	}
 
 /* CAT */
 
